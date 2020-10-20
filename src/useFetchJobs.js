@@ -7,7 +7,7 @@ const ACTIONS = {
   ERROR: 'error'
 }
 
-const BASE_URL = 'http://localhost:3001/https://jobs.github.com/positions.json';
+const BASE_URL = '/positions.json';
 
 function reducer(state, action) {
   switch (action.type) {
